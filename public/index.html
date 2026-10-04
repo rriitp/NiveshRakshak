@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NiveshRakshak | Investor Safety</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="navbar">
+
+        <div class="logo">
+            🛡️ NiveshRakshak
+        </div>
+
+        <div class="tagline">
+            Investor Safety Assistant
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="badge">
+                    SANGYAN • TRACK A
+                </span>
+
+                <h1>
+                    Detect Investment Scams
+                    <span>Before You Lose Money.</span>
+                </h1>
+
+                <p>
+                    Analyze suspicious investment messages and identify
+                    common fraud and scam warning signs.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ANALYZER -->
+
+        <section class="analyzer-section">
+
+            <div class="analyzer-card">
+
+                <div class="section-heading">
+
+                    <span>01</span>
+
+                    <div>
+                        <h2>Check a suspicious message</h2>
+
+                        <p>
+                            Paste an investment-related message below.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <textarea
+                    id="messageInput"
+                    placeholder="Paste a suspicious WhatsApp, Telegram, SMS or investment message here..."
+                ></textarea>
+
+
+                <div class="button-row">
+
+                    <button id="demoButton" class="secondary-btn">
+                        Try Demo Message
+                    </button>
+
+                    <button id="analyzeButton" class="primary-btn">
+                        🔍 Analyze Risk
+                    </button>
+
+                </div>
+
+
+                <p class="privacy-note">
+                    🔒 Demo analysis does not require OTP, password or financial account information.
+                </p>
+
+            </div>
+
+
+            <!-- RESULT -->
+
+            <div id="resultSection" class="result-card hidden">
+
+                <div class="result-header">
+
+                    <div>
+                        <p class="small-label">ANALYSIS RESULT</p>
+
+                        <h2 id="riskLevel">
+                            HIGH RISK
+                        </h2>
+                    </div>
+
+                    <div id="scoreCircle" class="score-circle">
+                        <strong id="riskScore">87</strong>
+                        <small>/100</small>
+                    </div>
+
+                </div>
+
+
+                <div class="result-divider"></div>
+
+
+                <div>
+
+                    <p class="result-title">
+                        🚩 Red Flags Detected
+                    </p>
+
+                    <div id="redFlags" class="red-flags">
+                    </div>
+
+                </div>
+
+
+                <div class="safe-box">
+
+                    <h3>
+                        🛡️ What should you do?
+                    </h3>
+
+                    <ul id="safeActions">
+                    </ul>
+
+                </div>
+
+
+                <div class="disclaimer">
+
+                    <strong>Important:</strong>
+
+                    This tool provides educational risk indicators.
+                    It does not provide investment advice or guarantee
+                    that a message is fraudulent.
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- HOW IT WORKS -->
+
+        <section class="how-section">
+
+            <div class="section-title">
+
+                <span>HOW IT WORKS</span>
+
+                <h2>Pause. Check. Protect.</h2>
+
+            </div>
+
+
+            <div class="steps">
+
+                <div class="step">
+
+                    <div class="step-number">1</div>
+
+                    <h3>Paste</h3>
+
+                    <p>
+                        Submit a suspicious financial message.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">2</div>
+
+                    <h3>Analyze</h3>
+
+                    <p>
+                        The system checks common scam indicators.
+                    </p>
+
+                </div>
+
+
+                <div class="step">
+
+                    <div class="step-number">3</div>
+
+                    <h3>Protect</h3>
+
+                    <p>
+                        Understand the warning signs and safer next steps.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            NiveshRakshak • Built for SANGYAN Investor Resilience Hackathon
+        </p>
+
+        <p>
+            Investor protection • Privacy-first • Public good
+        </p>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

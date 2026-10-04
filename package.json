@@ -1,0 +1,13 @@
+{
+  "name": "niveshrakshak",
+  "version": "1.0.0",
+  "description": "AI-powered investor scam and fraud risk detector",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
